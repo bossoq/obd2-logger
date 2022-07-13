@@ -1,0 +1,22 @@
+{
+  "name": "obd2-logger",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=16"
+  },
+  "main": "index.ts",
+  "repository": "https://github.com/bossoq/obd2-logger.git",
+  "author": "Kittipos Wajakajornrit <kwajakajornrit@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node .",
+    "dev": "ts-node-dev --respawn -- ."
+  },
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
